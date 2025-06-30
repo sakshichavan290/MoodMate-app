@@ -65,10 +65,10 @@ cd MoodMate-app
 > *Add screenshots of your app screens here for better showcase.*
 
 ```markdown
-![Home Screen](url_to_screenshot)
-![Analytics Screen](url_to_screenshot)
-![History Screen](url_to_screenshot)
-![Community Screen](url_to_screenshot)
+![Home Screen](homescreen.png)
+![Analytics Screen](analyticsscreen.png)
+![History Screen](historyscreen.png)
+![Community Screen](communityscreen.png)
 ```
 
 ---
