@@ -25,6 +25,7 @@ MoodMate is an Android app built with **Jetpack Compose**, **Firebase**, and **M
 - **Kotlin 2.0**
 - **Jetpack Compose**
 - **Firebase Firestore & Analytics**
+-  **Firebase Realtime Database**
 - **MVVM Architecture**
 - **Vico Charts** (for analytics visualization)
 - **Navigation Compose**
