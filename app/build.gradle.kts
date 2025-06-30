@@ -53,6 +53,7 @@ dependencies {
     implementation(libs.vico.compose)
     implementation(libs.vico.core)
     implementation(libs.vico.compose.m3)
+    implementation("com.google.firebase:firebase-database")
     implementation("com.google.firebase:firebase-firestore")
     implementation(platform("com.google.firebase:firebase-bom:33.16.0"))
     implementation("com.google.firebase:firebase-analytics")

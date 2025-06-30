@@ -18,7 +18,7 @@ import com.example.moodmate.R
 import com.example.moodmate.viewmodel.MoodViewModel
 
 @Composable
-fun CommunityScreen(viewModel: MoodViewModel ,navController: NavController) {
+fun CommunityScreen(viewModel: MoodViewModel, navController: NavController) {
     val communityMoods by viewModel.communityMoodList.collectAsState()
     var showCommentDialog by remember { mutableStateOf(false) }
     var currentMoodForComment by remember { mutableStateOf<MoodViewModel.Mood?>(null) }
@@ -82,7 +82,9 @@ fun CommunityScreen(viewModel: MoodViewModel ,navController: NavController) {
                                     horizontalArrangement = Arrangement.SpaceBetween,
                                     modifier = Modifier.fillMaxWidth()
                                 ) {
-                                    TextButton(onClick = { viewModel.likeMood(mood) }) {
+                                    Button(onClick = {
+                                        viewModel.likeMood(mood)
+                                    }) {
                                         Text("❤️ ${mood.likes}")
                                     }
                                     TextButton(onClick = {
