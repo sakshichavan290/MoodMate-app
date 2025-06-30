@@ -65,9 +65,10 @@ cd MoodMate-app
 
 
 ![Home Screen](homescreen.png)
-![Analytics Screen](analyticsscreen.png)
-![History Screen](historyscreen.png)
-![Community Screen](communityscreen.png)
+![Log Mood Screen](logmoodscreen.png)
+![Analytics Screen](analyticsScreen.png)
+![History Screen](historyScreen.png)
+![Community Screen](communityScreen.png)
 
 
 
